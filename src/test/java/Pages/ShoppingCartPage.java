@@ -1,4 +1,6 @@
 package Pages;
 
-public class ShoppingCartPage {
+import Common.PageBase;
+
+public class ShoppingCartPage extends PageBase {
 }

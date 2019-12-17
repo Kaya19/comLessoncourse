@@ -1,4 +1,6 @@
 package Pages;
 
-public class SignupLoginPage {
+import Common.PageBase;
+
+public class SignupLoginPage extends PageBase {
 }

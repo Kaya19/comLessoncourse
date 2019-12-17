@@ -1,4 +1,6 @@
 package Pages;
 
-public class Category2Page {
+import Common.PageBase;
+
+public class Category2Page extends PageBase {
 }

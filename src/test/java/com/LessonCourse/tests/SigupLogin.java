@@ -1,4 +1,6 @@
 package com.LessonCourse.tests;
 
-public class SigupLogin {
+import Common.TestBase;
+
+public class SigupLogin  extends TestBase {
 }

@@ -3,6 +3,6 @@ package Common;
 import Utils.SeleniumUtil;
 
 public  abstract class Base {
-    protected SeleniumUtil seleniumUtil = new SeleniumUtil();
+    protected SeleniumUtil su = new SeleniumUtil();
 
 }

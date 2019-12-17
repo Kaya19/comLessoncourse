@@ -1,4 +1,6 @@
 package Pages;
 
-public class Person {
+import Common.PageBase;
+
+public class Person extends PageBase {
 }

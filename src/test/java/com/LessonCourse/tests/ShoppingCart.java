@@ -1,4 +1,6 @@
 package com.LessonCourse.tests;
 
-public class ShoppingCart {
+import Common.TestBase;
+
+public class ShoppingCart extends TestBase {
 }

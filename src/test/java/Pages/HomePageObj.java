@@ -1,4 +1,6 @@
 package Pages;
 
-public class HomePageObj {
+import Common.PageBase;
+
+public class HomePageObj extends PageBase {
 }

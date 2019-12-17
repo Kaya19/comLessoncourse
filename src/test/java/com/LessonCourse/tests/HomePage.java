@@ -1,4 +1,6 @@
 package com.LessonCourse.tests;
 
-public class HomePage {
+import Common.TestBase;
+
+public class HomePage extends TestBase {
 }

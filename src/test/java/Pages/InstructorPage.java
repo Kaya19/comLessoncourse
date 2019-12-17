@@ -1,4 +1,6 @@
 package Pages;
 
-public class InstructorPage {
+import Common.PageBase;
+
+public class InstructorPage extends PageBase {
 }

@@ -1,4 +1,6 @@
 package com.LessonCourse.tests;
 
-public class Category2 {
+import Common.TestBase;
+
+public class Category2 extends TestBase {
 }

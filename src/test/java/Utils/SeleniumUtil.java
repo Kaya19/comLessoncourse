@@ -53,6 +53,16 @@ public class SeleniumUtil {
     public boolean isDisplayed(WebElement element) {
         return element.isDisplayed();
     }
+
+    public boolean isPresent(By locator){
+        try{
+            return findElement(locator).isDisplayed();
+        }catch (org.openqa.selenium.NoSuchElementException e){
+            return false;
+        }
+
+    }
+
     public WebDriverWait getWait(long millSecond){
         return new WebDriverWait(Driver.getDriver(),millSecond);
     }
@@ -85,6 +95,10 @@ public class SeleniumUtil {
     }
     public void getThread(int milliSecond) throws InterruptedException {
         Thread.sleep(milliSecond);
+    }
+
+    public void refreshPage(){
+        Driver.driver.navigate().refresh();
     }
 }
 

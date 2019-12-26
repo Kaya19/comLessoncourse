@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YK Suite">
+    <test verbose="5" preserve-order="true" name="YK All">
+        <groups>
+            <run>
+                <include name="All"/>
+            </run>
+        </groups>
+
+                <classes>
+                    <class name="com.LessonCourse.tests.SigupLogin"></class>
+                </classes>
+
+    </test></suite>
